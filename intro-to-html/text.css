@@ -1,0 +1,128 @@
+p{
+  font-family: Roboto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.video-title{
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 20px;
+
+}
+
+.video-stats{
+  font-size: 14px;
+  color: #606060;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.video-author{
+  margin-top: 0;
+  font-size: 14px;
+  color: #606060;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.video-description{
+  margin-top: 0;
+  font-size: 14px;
+  width: 280px;
+  color: #606060;
+  line-height: 22px;
+  margin-bottom: 100px;
+}
+
+.apple-text{
+  font-size: 14px;
+  background-color: #d32020;
+  color:aliceblue;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 50px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  
+}
+.span-ex{
+  color: red;
+  margin-left:20px;
+}
+
+.span-ex:hover{
+  text-decoration: underline;
+}
+
+.shop{
+  cursor: pointer;
+}
+
+.shop:hover{
+  text-decoration:underline;
+}
+
+.course-title{
+  font-family: Verdana;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.course-desc{
+  font-family: Verdana;
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 18px;
+}
+
+.course-expl{
+  font-family: Verdana;
+  font-size: 14px;
+  color: #181010;
+  margin-bottom: 15px;
+  line-height:18px;
+}
+
+.course-butt{
+  font-family: Verdana;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #136528;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  width: 115px;
+  border-radius:8px;
+}
+
+.stock-val{
+  font-family: Arial;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.usd{
+  font-size: 14px;
+  color: #606060;
+}
+
+.stock-plus{
+  color:#0b6522;
+  margin-bottom: 7px;
+}
+
+.stock-minu{
+  color: #525252;
+}
+
+.minus{
+  color: #d32020;
+}
