@@ -1,0 +1,90 @@
+!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <Title>Css Practice</Title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+      h1,p{
+        color: purple;
+      }
+
+      h1{
+        font-style: italic;
+      }
+      p{
+        text-decoration:dashed
+      }
+      #shark{
+        color: blue;
+      }
+
+      .subsection{
+        margin-left: 50px;
+      }
+      .header{
+        color: red;
+        font-size: 24px;
+      }
+      .subsection.header{
+        color: green;
+      }
+
+      .subsection#preview{
+        font-size: 12px;
+      }
+
+      .ancestor .descendant{
+        color: green;
+      }
+
+      .descendant{
+        color: red;
+        background-color: rgba(0, 0, 0, .2);
+      }
+      .daddy{
+        background-color: yellow;
+        text-align: center;
+      }
+      .odd{
+        background-color: lightcoral;
+        font-family:  Verdana, DejaVu Sans, sans-serif;
+      }
+
+      
+
+      #two{
+        font-size: 36px;
+        color: blue;
+      }
+
+      #three{
+        font-size: 24px;
+      }
+      #four{
+        font-size: 24px;
+        background-color: greenyellow;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="header"> SHaring a few styles with that guy  vvv</h1>
+    <p> Sharing a few styles with this guy |||</p>
+    <p id="shark"> I am the Shadowshark99</p>
+    <div class="subsection header"> You're kind of sussy</div>
+    <div class="subsection" id="preview">but what if I am not that sussy</div>
+    <div class="ancestor">
+      i am ancestor
+      <div class="daddy">
+        i am the daddy
+      <div class="descendant">I am a descendant</div>
+      </div>
+    </div>
+    <div class="descendant">I am an adopted descendant LOL</div>
+    <p class="odd">Number 1</p>
+    <p id="two">Number 2</p>
+    <p class="odd" id="three">Number 3</p>
+    <p id="four">Number 4</p>
+    <p class="odd">Number 5</p>
+  </body>
+</html>
