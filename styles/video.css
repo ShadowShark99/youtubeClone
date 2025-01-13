@@ -1,0 +1,76 @@
+.chanPic{
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.dots3{
+  margin-top: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+  font-size: 20px;
+  padding-top:0px;
+  width: 100%;
+  height: auto;
+}
+
+.dots3-hover{
+  background-color: #f1f1f181;
+}
+
+.d3div{
+  display: inline-block;
+  width: 30px;
+  vertical-align: top;
+}
+
+.pfp{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.thumbnail{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;;
+}
+
+.vD{
+  margin-top: 0px;
+  display: inline-block;
+  color: gray
+}
+
+.vidInfo{
+  width: 220px;
+  display: inline-block;
+  background-color: rgb(235, 203, 203);
+}
+.vid-info-grid{
+  display: grid;
+  grid-template-columns: 50px 6fr 1fr;
+}
+.viewCount{
+  display: block;
+}
+
+.vidPrev{
+  background-color: aliceblue;
+}
+.vT{
+  margin-top:0px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.yt-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}

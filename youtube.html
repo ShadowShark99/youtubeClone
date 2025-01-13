@@ -2,87 +2,71 @@
 <html>
   <head>
     <title>YouTube.com Clone</title>
-    <style>
-      .thumbnail{
-        width:300px;
-        object-fit: cover;
-        border-radius: 10px;;
-      }
-      .sB{
-        font-size: 20px;
-        margin-left: 20px;
-        margin-bottom: 30px;
-      }
-      .pfp{
-        width:100%;
-        height: auto;
-        object-fit: cover;
-        border-radius: 50%;
-      }
-      .vT{
-        margin-top:0px;
-        font-weight: bold;
-        display: inline-block;
-      }
-      .dots3{
-        margin-top: 0px;
-        cursor: pointer;
-        background-color: transparent;
-        border-radius: 50%;
-        border: none;
-        display: inline-block;
-        font-size: 20px;
-        padding-top:0px;
-        width: 100%;
-        height: auto;
-      }
-
-      .dots3-hover{
-        background-color: #f1f1f181;
-      }
-
-      .d3div{
-        display: inline-block;
-        width: 30px;
-        vertical-align: top;
-      }
-
-      .vD{
-        margin-top: 0px;
-        display: inline-block;
-        color: gray
-      }
-
-      .viewCount{
-        display: block;
-      }
-
-      .vidPrev{
-        display: inline-block;
-        width: 320px;
-        margin-right: 50px;
-      }
-
-      .chanPic{
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-      }
-      .vidInfo{
-        width: 220px;
-        display: inline-block;
-      }
-
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/header.css">
   </head>
   <body>
-    <input class="sB"type="text" placeholder="Search">
-    
+    <div class="header">
+      <div class="left-section"> left section</div>
+      <div class="middle-section">
+        <input class="sB"type="text" placeholder="Search">
+      </div>
+      <div class="right-section"> right section </div>
+    </div>
+    <div class="yt-grid">
+      <div class="vidPrev">
+        <div>
+          <img class="thumbnail"src="thumbnails/shuBalatro.webp">
+        </div>
+        <div class="vid-info-grid">
+          <div class="chanPic">
+            <img class="pfp" src="shupfp.jpg">
+          </div>
+          <div class="vidInfo">
+            <p class="vT">Balatro! - Roguelike gambling...?
+              | Shu Yamino
+            </p>
+            <p class="vD">Shu yamino[Nijisanji EN]
+              <span class="viewCount">1.1k watching</span>
+            </p>
+          </div>
+          <div class="d3div">
+            <button class="dots3">&#8942</button>
+          </div>
+        </div>
+      </div>
+  
+      <div class="vidPrev">
+        <div>
+          <img class="thumbnail"src="thumbnails/shuBalatro.webp">
+        </div>
+        <div class="vid-info-grid">
+          <div class="chanPic">
+            <img class="pfp" src="shupfp.jpg">
+          </div>
+          <div class="vidInfo">
+            <p class="vT">Balatro! - Roguelike gambling...?
+              | Shu Yamino
+            </p>
+            <p class="vD">Shu yamino[Nijisanji EN]
+              <span class="viewCount">1.1k watching</span>
+            </p>
+          </div>
+          <div class="d3div">
+            <button class="dots3">&#8942</button>
+          </div>
+        </div>
+      </div>
+
     <div class="vidPrev">
       <div>
         <img class="thumbnail"src="thumbnails/shuBalatro.webp">
       </div>
-      <div>
+      <div class="vid-info-grid">
         <div class="chanPic">
           <img class="pfp" src="shupfp.jpg">
         </div>
@@ -100,17 +84,10 @@
       </div>
     </div>
 
-
-    <div class="vidPrev">
-      <img class="thumbnail"src="thumbnails/ennaLOL.webp">
-      <img class="pfp" src="ennapfp.jpg">
-      <p class="vT">League of Legends w/ Babu to end off the year!!
-      </p>
-      <button class="dots3">&#8942</button>
-      <p class="vD">Enna Alouette [Nijisanji EN]
-        <span class="viewCount">902 watching</span>
-      </p>
     </div>
+
+
+    
   </body>
 
 </html>
