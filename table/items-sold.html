@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>School timetable</title>
+    <style>
+    html {
+      font-family: sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      border: 2px solid rgb(200,200,200);
+      letter-spacing: 1px;
+      font-size: 0.8rem;
+    }
+
+    td, th {
+      border: 1px solid rgb(190,190,190);
+      padding: 10px 20px;
+    }
+
+    td {
+      text-align: center;
+    }
+
+    caption {
+      padding: 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>School timetable</h1>
+
+    <table>
+      <thead>
+      
+        <tr>
+          <th></th>
+          <th></th>
+          <th id="clothes" colspan="3" scope="colgroup">Clothes</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th></th>
+          <th id="trousers" headers="clothes" scope="col">Trousers</th>
+          <th id="skirts" headers="clothes" scope="col">Skirts</th>
+          <th id="dresses" headers="clothes" scope="col">Dresses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th id="belgium" rowspan="2" scope="rowgroup">Belgium</th>
+          <th id="antwerp" headers="belgium" scope="row">Antwerp</th>
+          <td headers="belgium antwerp clothes trousers" scope="row">56</td>
+          <td headers="belgium antwerp clothes skirts" scope="row">22</td>
+          <td headers="belgium antwerp clothes dresses" scope="row">43</td>
+        </tr>
+        <tr>
+          <th id="ghent" headers="belgium" scope="row">Ghent</th>
+          <td headers="belgium ghent clothes trousers" scope="row">41</td>
+          <td headers="belgium ghent clothes skirts" scope="row">17</td>
+          <td headers="belgium ghent clothes dresses" scope="row">35</td>
+        </tr>
+      </tbody>
+      </table>
+
+  </body>
+</html>
+

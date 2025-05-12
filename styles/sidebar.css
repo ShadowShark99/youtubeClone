@@ -1,0 +1,22 @@
+.sidebar{
+  position: fixed;
+  top: 50px;
+  bottom: 0px;
+  left: 0px;
+  width: 150px;
+  background-color: aliceblue;
+}
+
+.sidebar-link{
+  background-color: white;
+  flex-direction: column;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Arial;
+}
+
+.sidebar-link:hover{
+  background-color: lightgray;
+}

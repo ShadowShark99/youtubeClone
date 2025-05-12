@@ -50,10 +50,29 @@
   display: inline-block;
   background-color: rgb(235, 203, 203);
 }
+
+
+
+.vidInfo:hover .vid-tooltip{
+  opacity: 1;
+  transition: opacity 0.15s
+}
+
+.vid-tooltip{
+  opacity: 0;
+  position: fixed;
+  z-index: 2;
+  background-color: lightblue;
+  pointer-events: none;
+}
+
 .vid-info-grid{
   display: grid;
   grid-template-columns: 50px 6fr 1fr;
 }
+
+
+
 .viewCount{
   display: block;
 }
@@ -73,4 +92,22 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+@media (max-width: 700px){
+  .yt-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 999){
+  .yt-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px){
+  .yt-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

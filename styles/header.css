@@ -10,10 +10,16 @@
   height: 55px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
 }
 .left-section{
   background-color: lightblue;
   width: 150px;
+  display: flex;
 }
 
 .middle-section{
